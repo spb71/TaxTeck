@@ -1,0 +1,64 @@
+html {
+    background-color: #fcfcfc;
+    text-align: center;
+    overflow-y: scroll;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+.accordion {
+    padding: 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+#statement {
+    font-size: 18px;
+}
+.bx-wrapper {
+    left: 0;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+/*link lights up to show what webpage user is looking at*/
+.change {
+    overflow: hidden;
+    background-color: black;
+}
+.change a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 100px 100px;
+    text-decoration: none;
+    font-size: 30px;
+}
+/*when mouse hovers over link, it lights up green*/
+.change a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.change a.clicked {
+    background-color: #4CAF50;
+    color: white;
+}
+img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+#slider {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#pager {
+    text-align: center;
+    font-size: 90%;
+    color: blue;
+}
+#footer {
+    position: absolute;
+    width: 100%;
+}

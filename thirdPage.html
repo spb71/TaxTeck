@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="thirdPage.css">
+    <link href="js12/jquery.bxslider.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="thirdPage.js"></script>
+</head>
+<body>
+<main>
+    <h1>TaxTeck for Less & Accounting</h1>
+    <div class="change">
+        <!--Implementation of navigation bar-->
+        <a href="index.html">Home</a>
+        <a href="firstPage.html">Schedule Appointments</a>
+        <a href="secondPage.html">QuickLinks</a>
+        <a href="thirdPage.html" class="clicked">Contact Us</a>
+    </div>
+    <br><br><br>
+    <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text" required placeholder="Enter your name"><br><br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" required placeholder="Enter your email"><br><br>
+        <label for="phone">Phone number:</label>
+        <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Enter phone number"><br><br>
+        <label for="question">Question:</label>
+        <textarea id="question" required placeholder="Your question here..." maxlength="250" rows="5" cols="50"></textarea><br><br>
+        <input id="submit" type="submit">
+    </form>
+    <br>
+
+    <div id="calendar"></div>
+</main>
+<br><br>
+<footer id="footer">
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <br>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>
