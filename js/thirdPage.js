@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "get",
-        url: "credentials.json",
+        url: "../json/credentials.json",
         beforeSend: function() {
             console.log("Loading...");
         },
